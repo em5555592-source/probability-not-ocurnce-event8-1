@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>درس 7-1 احتمال عدم حدوث نتيجة ما</title>
-
-    <!-- وسم الوصف العام -->
-    <meta name="description" content="شرح تفاعلى .">
-
-    <!-- وسوم Open Graph المخصصة للظهور على واتساب، فيسبوك، وغيرها -->
-    <meta property="og:title" content="الصفحة التفاعلية لتعلم الرياضيات - أ/ عماد جابر">
-    <meta property="og:description" content="استكشف الأنشطة والتمارين التفاعلية المصممة خصيصاً لطلاب المناهج الدراسية. انقر هنا للتجربة الآن!">
-    <meta property="og:image" content="https://your-username.github.io/your-repo/preview-image.png">
-    <meta property="og:url" content="https://your-username.github.io/your-repo/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ar_AR">
-
-    <!-- وسوم Twitter Cards (اختياري لزيادة التوافقية) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="الصفحة التفاعلية لتعلم الرياضيات - أ/ عماد جابر">
-    <meta name="twitter:description" content="استكشف الأنشطة والتمارين التفاعلية المصممة خصيصاً لطلاب المناهج الدراسية.">
-    <meta name="twitter:image" content="https://your-username.github.io/your-repo/preview-image.png">
-</head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>٧-١ احتمال عدم حدوث نتيجة ما</title>
+
+<!-- ================= جلب وسوم الميتا الخاصة بمشاركة واتساب ووسائل التواصل ================= -->
+<meta property="og:title" content="الصفحة التفاعلية لتعلم الرياضيات: درس احتمال عدم حدوث نتيجة ما - أ/ عماد جابر">
+<meta property="og:description" content="منصة تفاعلية تعليمية لمنهاج الرياضيات للصف الثامن بمدرسة محمد بن القاسم الثقفي. استكشف الأنشطة والمختبرات الافتراضية والتمارين الفورية.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_AR">
+<!-- يمكنك استبدال الرابط أدناه برابط صورتك المصغرة المرفوعة على مستودع جيت هاب إن وجدت -->
+<meta property="og:image" content=""> 
+<!-- =================================================================================== -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
@@ -1343,7 +1332,7 @@ $('#hwCopy').onclick=()=>copyText($('#hwMsg').textContent,$('#hwFb'));
     {given:'فوز ٠٫٥٥ ، تعادل ٠٫٢٥',q:'ما احتمال ألا يخسر الفريق؟',h:'الفوز + التعادل = ٠٫٥٥ + ٠٫٢٥',opts:['٠٫٢٠','٠٫٨٠','٠٫٧٠','٠٫٧٥'],a:1},
     {given:'ل(ع) = <span class="frac"><span>٥</span><span>١٢</span></span>',q:'أوجد احتمال عدم حدوث النتيجة (ع):',h:'<span class="frac"><span>١٢</span><span>١٢</span></span> − <span class="frac"><span>٥</span><span>١٢</span></span> = ؟',opts:['<span class="frac"><span>٧</span><span>١٢</span></span>','<span class="frac"><span>٥</span><span>١٢</span></span>','<span class="frac"><span>٦</span><span>١٢</span></span>','<span class="frac"><span>٨</span><span>١٢</span></span>'],a:0},
     {given:'ل(ع) = ٩٩٫٥٪',q:'أوجد احتمال عدم حدوث النتيجة (ع):',h:'١٠٠٪ − ٩٩٫٥٪ = ؟',opts:['٥٪','٠٫٥٪','١٫٥٪','٠٫٠٥٪'],a:1},
-    {given:'حمراء ١٢٪ ، زرقاء ١١٪',q:'ما احتمال ألا تكون السيارة حمراء أو زرقاء؟',h:'١٠٠٪ − (١٢٪ + ١١٪)',opts:['٢٣٪','٧٧٪','٨٧٪','٨٩٪'],a:1}
+    {given:'حمراء ١٢٪ ، زرقاء ١١٪',q:' ما احتمال ألا تكون السيارة حمراء أو زرقاء؟',h:'١٠٠٪ − (١٢٪ + ١١٪)',opts:['٢٣٪','٧٧٪','٨٧٪','٨٩٪'],a:1}
   ];
   let idx=0, pts=0, streak=0, locked=false;
   function loadG(){
